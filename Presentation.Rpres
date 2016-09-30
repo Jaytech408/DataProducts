@@ -1,0 +1,39 @@
+Presentation
+========================================================
+author: Joseph Lin
+date: 9/28/2016
+autosize: true
+
+Background/Motivation
+========================================================
+
+These are the files produced during a homework assignment of Coursera's MOOC Developing Data Products from Johns Hopkins University, where students could pick any dataset, and should produce a web app hosted on SaaS platform from RStudio shinyapss.io.
+
+The data set that I choose was from Kaggle's Titanic Challenge, since this is a starting point for many Machine Learning enthusiasts.
+
+Code for plots
+========================================================
+
+ggplot 2 Library was used for the plotting. Here is the code for a static view of the default plot that is rendered on the web app:
+```{r eval = FALSE}
+library(ggplot2)
+trainData <- read.csv(
+url("http://s3-eu-west-1.amazonaws.com/dpadata/dataScience/train.csv"))
+g <- ggplot(trainData, aes(Age, Pclass))
+g + geom_point(aes(color=Sex)) + facet_grid(Survived ~.)
+```
+```{r}
+
+```
+
+ Bit of History
+========================================================
+
+- The RMS Titanic traveled from Southampton to New York City on April 10, 1912
+- *Titanic's* passengers numbered around 1,317 people: 324 in First Class, 284 in Second Class. and 709 in Third Class. Of these, 869 (66%) were male and 447 (34%) female. There were 107 children aboard, the largest number of which were in Third Class.
+
+References
+========================================================
+
+* [RMS Titanic Wikipedia page](http://en.wikipedia.org/wiki/RMS_Titanic)
+* [Kaggle](https://www.kaggle.com/)

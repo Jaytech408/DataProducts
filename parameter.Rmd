@@ -1,0 +1,12 @@
+---
+title: "parameter"
+output: html_document
+Author: Joseph
+Date: 9/29/2016`
+---
+
+ntree: number of trees grown
+
+mtry: number of predictors sampled for spliting at each node
+
+

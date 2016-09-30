@@ -1,0 +1,28 @@
+---
+title: "variable"
+output: html_document
+Author: Joseph
+Date: 9/29/2016`
+---
+
+Survived: Passenger Survival ( 0 = No, 1 = Yes )
+
+Sex: Passenger Sex
+
+Age: Passenger Age
+
+Pclass: Passenger Class ( 1 = first, 2 = second, 3 = third )
+
+SibSp: Number of Siblings/Spouses Aboard
+
+Parch: Number of Parents/Children Aboard
+
+Fare: Ticket Fare
+
+Embarked: Port of Embarkation ( C = Cherbourg, Q = Queenstown, S = Southampton )
+
+Title: Passenger Title: Mrs ( includes Mrs, Mme, Lady, Mlle, Ms), Mr (includes Mr, Sir, Dr), Major (includes Major, Capt, Don, Col, Jonkheer, Master), Miss (includes Miss, Dona, the Countess, Rev, Mlle)
+
+FamilySize ( = SibSp + Parch + 1): Number of Family Members
+
+CabinPr: Cabin Presence ( 0 = No, 1 = Yes )

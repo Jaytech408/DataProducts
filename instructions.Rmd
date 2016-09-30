@@ -1,0 +1,9 @@
+---
+title: "instructions"
+output: html_document
+---
+
+1. Read about the proposed features and the algorithm parameters in the Description tabpanel
+2. Choose the variables and parameters that serve as the input data for the Random Forest classification
+3. the Data tabpanel shows the survival status and selected features
+4. Play with your choice to achieve better accuracy
